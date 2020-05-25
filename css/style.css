@@ -416,11 +416,12 @@ footer {
   padding: 20px; }
   .path a {
     text-decoration: none;
-    color: #000; }
+    color: #000;
+    font-size: 13px; }
     .path a:hover {
       color: #b853a3; }
   .path i {
-    font-size: 13px; }
+    font-size: 12px; }
 
 .login-rigister form .form-input {
   padding: 10px;
@@ -654,6 +655,175 @@ footer {
       padding-left: 5px;
       padding-top: 3px !important; }
 
+.my-profile form {
+  margin-top: 0 !important; }
+.my-profile h5 {
+  text-align: right;
+  margin-top: 60px;
+  color: #b853a3;
+  font-weight: bold; }
+
+.add-ads-add {
+  margin-bottom: 80px; }
+  .add-ads-add form {
+    text-align: right;
+    margin-top: 60px; }
+    .add-ads-add form input,
+    .add-ads-add form select,
+    .add-ads-add form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ddd; }
+      .add-ads-add form input::placeholder,
+      .add-ads-add form select::placeholder,
+      .add-ads-add form textarea::placeholder {
+        font-size: 13px; }
+    .add-ads-add form select {
+      background-color: transparent;
+      padding: 5px !important;
+      color: #444;
+      font-size: 14px; }
+    .add-ads-add form input[type="file"] {
+      border: 0;
+      margin-top: 0; }
+    .add-ads-add form .add-pic {
+      color: #b853a3;
+      margin-top: 20px;
+      font-weight: bold; }
+    .add-ads-add form button[type="submit"] {
+      border: 1px solid #b853a3;
+      background-color: #b853a3;
+      color: #fff;
+      padding: 8px;
+      border-radius: 5px; }
+
+.my-ads {
+  text-align: right;
+  margin-bottom: 150px; }
+  .my-ads .card {
+    border: 0;
+    margin-top: 50px !important; }
+    .my-ads .card .card-body {
+      background-color: #f7f6fa;
+      height: 100%;
+      padding: 0 !important;
+      position: relative; }
+      .my-ads .card .card-body h5 {
+        font-size: 18px;
+        color: #44474b;
+        padding: 20px; }
+      .my-ads .card .card-body span {
+        margin-left: 20px;
+        font-size: 13px;
+        color: #b853a3;
+        padding: 20px; }
+        .my-ads .card .card-body span i {
+          font-size: 12px;
+          margin-left: 10px;
+          color: #b853a3; }
+      .my-ads .card .card-body .controls {
+        background-color: #efebf9;
+        height: 60px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        line-height: 60px;
+        padding-right: 20px; }
+        .my-ads .card .card-body .controls .button-controls {
+          background-color: #b853a3;
+          border: 1px solid #b853a3;
+          color: #fff; }
+        .my-ads .card .card-body .controls .price {
+          position: absolute;
+          left: 3%;
+          top: 0%;
+          line-height: 60px;
+          font-size: 16px;
+          color: #b853a3; }
+
+.edit-ads {
+  text-align: right;
+  margin-top: 70px;
+  margin-bottom: 80px; }
+  .edit-ads form input, .edit-ads form select {
+    height: calc(2.5em + .75rem + 2px); }
+  .edit-ads form label {
+    color: #b853a3;
+    font-weight: bold; }
+  .edit-ads form select {
+    font-size: 14px; }
+  .edit-ads form input {
+    font-size: 14px; }
+  .edit-ads form .file-upload label {
+    margin-bottom: 0 !important; }
+  .edit-ads form .img-from-file img {
+    width: 20%; }
+  .edit-ads form button {
+    color: #fff;
+    background-color: #b853a3;
+    border: 1px solid #b853a3;
+    padding: 10px; }
+
+.my-inbox {
+  text-align: right;
+  margin-top: 60px;
+  margin-bottom: 120px; }
+  .my-inbox .card {
+    margin-top: 20px; }
+    .my-inbox .card .card-header {
+      background-color: #b853a3 !important;
+      color: #fff;
+      font-size: 18px; }
+    .my-inbox .card .card-body .card-title, .my-inbox .card .card-body .card-text {
+      font-size: 15px; }
+      .my-inbox .card .card-body .card-title i, .my-inbox .card .card-body .card-text i {
+        margin-left: 5px;
+        color: #b853a3; }
+    .my-inbox .card .card-body .btn-danger {
+      font-size: 13px; }
+      .my-inbox .card .card-body .btn-danger i {
+        margin-left: 5px; }
+
+.blacklist {
+  text-align: right;
+  margin-top: 90px;
+  margin-bottom: 180px; }
+  .blacklist h5 {
+    color: #b853a3;
+    font-size: 25px; }
+  .blacklist p {
+    font-size: 15px; }
+  .blacklist form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD; }
+    .blacklist form input::placeholder {
+      font-size: 14px; }
+  .blacklist form button {
+    margin-top: 15px;
+    width: 120px;
+    background-color: #b853a3;
+    border: 1px solid #b853a3;
+    color: #fff;
+    padding: 10px; }
+
+.who-us {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: right; }
+  .who-us .who-header {
+    color: #b853a3;
+    font-size: 25px;
+    margin-bottom: 25px; }
+  .who-us p {
+    color: #777;
+    line-height: 40px; }
+    .who-us p .big-word {
+      color: #b853a3;
+      font-size: 23px;
+      font-weight: bold; }
+
 @media (max-width: 1024px) {
   .header .header-content {
     padding-top: 200px; }
@@ -802,7 +972,23 @@ footer {
     display: block !important;
     float: right !important;
     width: 50% !important;
-    margin-top: 10px !important; } }
+    margin-top: 10px !important; }
+
+  .my-ads .card .card-body h5 {
+    padding-bottom: 5px !important; }
+
+  .my-ads .card .card-body .controls {
+    position: inherit;
+    margin-top: 10px;
+    height: 90px; }
+
+  .my-ads .card .card-body .controls .price {
+    position: absolute;
+    left: 72%;
+    top: 44%; }
+
+  .edit-ads form .img-from-file img {
+    width: 45% !important; } }
 @media (max-width: 414px) {
   .upper-nav .login-country ul .button {
     margin-top: -20px !important; } }

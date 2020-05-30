@@ -560,6 +560,22 @@ footer {
   text-align: right;
   background-color: #ddd;
   padding: 20px;
+  span{
+    &::before{
+      font-family: "Font Awesome 5 Free";
+      // position: absolute;
+      margin-left: 6px;
+      margin-right: 6px;
+      content: "\f104";
+      font-weight: 900;
+      font-size: 13px;
+    }
+  }
+  .first{
+    &::before{
+      content: "" !important;
+    }
+  }
   a {
     text-decoration: none;
     color: #000;
@@ -567,9 +583,6 @@ footer {
     &:hover {
       color: $mainColor;
     }
-  }
-  i {
-    font-size: 12px;
   }
 }
 

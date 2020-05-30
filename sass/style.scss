@@ -489,13 +489,13 @@ footer {
       i {
         display: inline-block;
         color: #fff;
-        border: 1px solid #4978C8;
+        border: 1px solid #4978c8;
         border-radius: 50%;
         width: 30px;
         height: 30px;
         line-height: 30px;
         text-align: center;
-        background-color: #4978C8;
+        background-color: #4978c8;
         transition: all 0.5s ease;
         &:hover {
           background-color: $mainColor;
@@ -534,7 +534,7 @@ footer {
   }
   .copy {
     background-color: #2abcf2;
-    box-shadow: 0px -3px 2px -1px #34C2F4;
+    box-shadow: 0px -3px 2px -1px #34c2f4;
     padding: 20px;
     position: relative;
     h5 {
@@ -560,8 +560,8 @@ footer {
   text-align: right;
   background-color: #ddd;
   padding: 20px;
-  span{
-    &::before{
+  span {
+    &::before {
       font-family: "Font Awesome 5 Free";
       // position: absolute;
       margin-left: 6px;
@@ -571,8 +571,8 @@ footer {
       font-size: 13px;
     }
   }
-  .first{
-    &::before{
+  .first {
+    &::before {
       content: "" !important;
     }
   }
@@ -657,6 +657,15 @@ footer {
 
 // start show ads
 .show-ads {
+  .arrow-left-h6 {
+    &:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f0d9";
+      color: #2b79c3;
+      font-size: 25px;
+    }
+  }
   .ads-info {
     .swiper-container {
       width: 100%;
@@ -739,14 +748,10 @@ footer {
       }
       h6 {
         font-size: 25px;
-        color: #2B79C3;
+        color: #2b79c3;
         padding-right: 20px;
         padding-top: 10px;
         margin: 10px 0px 20px 0px;
-        i {
-          color: #2B79C3;
-          font-size: 25px;
-        }
       }
       .table-word {
         margin: 0 !important;
@@ -759,12 +764,8 @@ footer {
         font-size: 25px;
         padding-right: 20px;
         padding-top: 10px;
-        color: #2B79C3;
+        color: #2b79c3;
         margin: 10px 0px 20px 0px;
-        i {
-          color: #2B79C3;
-          font-size: 25px;
-        }
       }
       .desr-par {
         line-height: 25px;
@@ -777,12 +778,8 @@ footer {
         font-size: 25px;
         padding-right: 20px;
         padding-top: 10px;
-        color: #2B79C3;
+        color: #2b79c3;
         margin: 10px 0px 20px 0px;
-        i {
-          color: #2B79C3;
-          font-size: 25px;
-        }
       }
       ul {
         padding: 0;
@@ -836,12 +833,21 @@ footer {
     }
   }
   .related-ads {
+    .related-d-h6-before{
+      &::before{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f0d9";
+        color: #2b79c3;
+        font-size: 25px;
+      }
+    }
     h6 {
       margin-top: 15px;
       font-size: 25px;
-      color: #2B79C3;
+      color: #2b79c3;
       i {
-        color: #2B79C3;
+        color: #2b79c3;
         font-size: 25px;
       }
     }
@@ -906,19 +912,17 @@ footer {
   }
 }
 
-
-.my-profile{
-  form{
+.my-profile {
+  form {
     margin-top: 0 !important;
   }
-  h5{
+  h5 {
     text-align: right;
     margin-top: 60px;
     color: $mainColor;
     font-weight: bold;
   }
 }
-
 
 // start add ads
 .add-ads-add {
@@ -1017,35 +1021,36 @@ footer {
 }
 
 // start edit ads
-.edit-ads{
+.edit-ads {
   text-align: right;
   margin-top: 70px;
   margin-bottom: 80px;
-  form{
-    input, select{
-      height: calc(2.5em + .75rem + 2px);
+  form {
+    input,
+    select {
+      height: calc(2.5em + 0.75rem + 2px);
     }
-    label{
+    label {
       color: $mainColor;
       font-weight: bold;
     }
-    select{
+    select {
       font-size: 14px;
     }
-    input{
+    input {
       font-size: 14px;
     }
-    .file-upload{
-      label{
+    .file-upload {
+      label {
         margin-bottom: 0 !important;
       }
     }
-    .img-from-file{
-      img{
+    .img-from-file {
+      img {
         width: 20%;
       }
     }
-    button{
+    button {
       color: #fff;
       background-color: $mainColor;
       border: 1px solid $mainColor;
@@ -1054,30 +1059,30 @@ footer {
   }
 }
 
-
 // start my-inbox
-.my-inbox{
+.my-inbox {
   text-align: right;
   margin-top: 60px;
   margin-bottom: 120px;
-  .card{
+  .card {
     margin-top: 20px;
-    .card-header{
+    .card-header {
       background-color: $mainColor !important;
       color: #fff;
       font-size: 18px;
     }
-    .card-body{
-      .card-title, .card-text{
+    .card-body {
+      .card-title,
+      .card-text {
         font-size: 15px;
-        i{
+        i {
           margin-left: 5px;
           color: $mainColor;
         }
       }
-      .btn-danger{
+      .btn-danger {
         font-size: 13px;
-        i{
+        i {
           margin-left: 5px;
         }
       }
@@ -1086,27 +1091,27 @@ footer {
 }
 
 // start blacklist
-.blacklist{
+.blacklist {
   text-align: right;
   margin-top: 90px;
   margin-bottom: 180px;
-  h5{
+  h5 {
     color: $mainColor;
     font-size: 25px;
   }
-  p{
+  p {
     font-size: 15px;
   }
-  form{
-    input{
+  form {
+    input {
       width: 100%;
       padding: 10px;
-      border: 1px solid #DDD;
-      &::placeholder{
+      border: 1px solid #ddd;
+      &::placeholder {
         font-size: 14px;
       }
     }
-    button{
+    button {
       margin-top: 15px;
       width: 120px;
       background-color: $mainColor;
@@ -1118,18 +1123,18 @@ footer {
 }
 
 // start who-us
-.who-us{
+.who-us {
   margin-top: 80px;
   margin-bottom: 90px;
   text-align: right;
-  .who-header{
+  .who-header {
     color: $mainColor;
     font-size: 25px;
     margin-bottom: 25px;
   }
-  p{
+  p {
     color: #777;
-    .big-word{
+    .big-word {
       color: $mainColor;
       font-size: 23px;
       font-weight: bold;
@@ -1137,10 +1142,6 @@ footer {
     line-height: 40px;
   }
 }
-
-
-
-
 
 @media (max-width: 1024px) {
   .header .header-content {
@@ -1258,11 +1259,11 @@ footer {
     margin-bottom: 0px !important;
   }
 
-  .contact .contact-form{
-    input{
-      margin-top: 20px; 
-    } 
-    button{
+  .contact .contact-form {
+    input {
+      margin-top: 20px;
+    }
+    button {
       margin-top: 10px;
     }
   }
@@ -1347,16 +1348,16 @@ footer {
       }
     }
   }
-  .show-ads .ads-info .ads-header .price{
+  .show-ads .ads-info .ads-header .price {
     display: block !important;
     float: right !important;
     width: 50% !important;
     margin-top: 10px !important;
   }
-  .my-ads .card .card-body h5{
+  .my-ads .card .card-body h5 {
     padding-bottom: 5px !important;
   }
-  .my-ads .card .card-body .controls{
+  .my-ads .card .card-body .controls {
     position: inherit;
     margin-top: 10px;
     height: 90px;
@@ -1366,7 +1367,7 @@ footer {
     left: 72%;
     top: 44%;
   }
-  .edit-ads form .img-from-file img{
+  .edit-ads form .img-from-file img {
     width: 45% !important;
   }
 }

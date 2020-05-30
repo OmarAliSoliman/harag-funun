@@ -357,13 +357,13 @@ footer {
     footer .social-content .social i {
       display: inline-block;
       color: #fff;
-      border: 1px solid #4978C8;
+      border: 1px solid #4978c8;
       border-radius: 50%;
       width: 30px;
       height: 30px;
       line-height: 30px;
       text-align: center;
-      background-color: #4978C8;
+      background-color: #4978c8;
       transition: all 0.5s ease; }
       footer .social-content .social i:hover {
         background-color: #b853a3;
@@ -395,7 +395,7 @@ footer {
         background-color: #06162a; }
   footer .copy {
     background-color: #2abcf2;
-    box-shadow: 0px -3px 2px -1px #34C2F4;
+    box-shadow: 0px -3px 2px -1px #34c2f4;
     padding: 20px;
     position: relative; }
     footer .copy h5 {
@@ -477,6 +477,12 @@ footer {
   border: 1px solid #36c0f1;
   width: 100px; }
 
+.show-ads .arrow-left-h6:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0d9";
+  color: #2b79c3;
+  font-size: 25px; }
 .show-ads .ads-info .swiper-container {
   width: 100%;
   height: 400px;
@@ -537,13 +543,10 @@ footer {
     padding-right: 40px !important; }
   .show-ads .ads-info .table-infor h6 {
     font-size: 25px;
-    color: #2B79C3;
+    color: #2b79c3;
     padding-right: 20px;
     padding-top: 10px;
     margin: 10px 0px 20px 0px; }
-    .show-ads .ads-info .table-infor h6 i {
-      color: #2B79C3;
-      font-size: 25px; }
   .show-ads .ads-info .table-infor .table-word {
     margin: 0 !important;
     padding: 0 !important; }
@@ -553,11 +556,8 @@ footer {
     font-size: 25px;
     padding-right: 20px;
     padding-top: 10px;
-    color: #2B79C3;
+    color: #2b79c3;
     margin: 10px 0px 20px 0px; }
-    .show-ads .ads-info .descr h6 i {
-      color: #2B79C3;
-      font-size: 25px; }
   .show-ads .ads-info .descr .desr-par {
     line-height: 25px;
     color: #444; }
@@ -567,11 +567,8 @@ footer {
     font-size: 25px;
     padding-right: 20px;
     padding-top: 10px;
-    color: #2B79C3;
+    color: #2b79c3;
     margin: 10px 0px 20px 0px; }
-    .show-ads .ads-info .contact-data h6 i {
-      color: #2B79C3;
-      font-size: 25px; }
   .show-ads .ads-info .contact-data ul {
     padding: 0;
     padding-right: 20px; }
@@ -610,12 +607,18 @@ footer {
     border: 0;
     border: 1px solid #b853a3;
     color: #fff; }
+.show-ads .related-ads .related-d-h6-before::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0d9";
+  color: #2b79c3;
+  font-size: 25px; }
 .show-ads .related-ads h6 {
   margin-top: 15px;
   font-size: 25px;
-  color: #2B79C3; }
+  color: #2b79c3; }
   .show-ads .related-ads h6 i {
-    color: #2B79C3;
+    color: #2b79c3;
     font-size: 25px; }
 .show-ads .related-ads .card {
   background-color: #f6f8fa; }
@@ -753,8 +756,9 @@ footer {
   text-align: right;
   margin-top: 70px;
   margin-bottom: 80px; }
-  .edit-ads form input, .edit-ads form select {
-    height: calc(2.5em + .75rem + 2px); }
+  .edit-ads form input,
+  .edit-ads form select {
+    height: calc(2.5em + 0.75rem + 2px); }
   .edit-ads form label {
     color: #b853a3;
     font-weight: bold; }
@@ -782,9 +786,11 @@ footer {
       background-color: #b853a3 !important;
       color: #fff;
       font-size: 18px; }
-    .my-inbox .card .card-body .card-title, .my-inbox .card .card-body .card-text {
+    .my-inbox .card .card-body .card-title,
+    .my-inbox .card .card-body .card-text {
       font-size: 15px; }
-      .my-inbox .card .card-body .card-title i, .my-inbox .card .card-body .card-text i {
+      .my-inbox .card .card-body .card-title i,
+      .my-inbox .card .card-body .card-text i {
         margin-left: 5px;
         color: #b853a3; }
     .my-inbox .card .card-body .btn-danger {
@@ -804,7 +810,7 @@ footer {
   .blacklist form input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #DDD; }
+    border: 1px solid #ddd; }
     .blacklist form input::placeholder {
       font-size: 14px; }
   .blacklist form button {

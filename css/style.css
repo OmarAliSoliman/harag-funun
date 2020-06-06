@@ -483,44 +483,29 @@ footer {
   content: "\f0d9";
   color: #2b79c3;
   font-size: 25px; }
-.show-ads .ads-info .swiper-container {
-  width: 100%;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative; }
-  .show-ads .ads-info .swiper-container .special-ads {
-    z-index: 3;
-    display: inline-block;
-    position: absolute;
-    background-color: #68bb2b;
-    border: 1px solid #68bb2b;
-    width: 15%;
-    padding: 10px !important;
-    text-align: center;
-    border-radius: 10px;
-    color: #fff;
-    left: 3%;
-    top: 2%; }
-.show-ads .ads-info .swiper-slider .swiper-slide {
+.show-ads .slider-top .item-slide {
+  height: 70vh;
   background-size: cover;
   background-position: center; }
-.show-ads .ads-info .swiper-slider .gallery-top {
-  height: 80%;
-  width: 100%; }
-.show-ads .ads-info .swiper-slider .gallery-thumbs {
-  height: 20%;
-  box-sizing: border-box;
-  padding: 10px 0; }
-.show-ads .ads-info .swiper-slider .gallery-thumbs .swiper-slide {
-  height: 100%;
-  opacity: 0.4; }
-.show-ads .ads-info .swiper-slider .gallery-thumbs .swiper-slide-thumb-active {
-  opacity: 1; }
-.show-ads .ads-info .swiper-slider .swiper-wrapper .image-top {
-  height: 70vh; }
-.show-ads .ads-info .swiper-slider .swiper-wrapper .image-down {
-  height: 20vh; }
+.show-ads .slider-bottom .item-slide {
+  height: 20vh;
+  background-size: cover;
+  background-position: center; }
+  .show-ads .slider-bottom .item-slide:focus {
+    outline: 0 !important; }
+.show-ads .ads-info .special-ads {
+  z-index: 3;
+  display: inline-block;
+  position: absolute;
+  background-color: #68bb2b;
+  border: 1px solid #68bb2b;
+  width: 15%;
+  padding: 10px !important;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  left: 5%;
+  top: 9%; }
 .show-ads .ads-info .ads-header .header-ads {
   margin-top: 15px;
   font-size: 20px;
@@ -535,7 +520,6 @@ footer {
   border: 1px solid #ecb000;
   background-color: #ecb000; }
 .show-ads .ads-info .table-infor {
-  margin-top: -10px !important;
   border: 1px solid #ddd; }
   .show-ads .ads-info .table-infor .table {
     margin-bottom: 0 !important; }
